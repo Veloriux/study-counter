@@ -1,26 +1,31 @@
 body {
     background-image: url("studyimg.jpg");
     background-size: cover;
-    font-family: Roboto, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Roboto, BlinkMacSystemFont, 'Segoe UI';
     font-weight: bold;
     text-align: center;
+    height: 100vh;
 }
 
 .container {
+    background: white;
+    max-width: 80%;
+    margin: auto;
     border: 3px solid black;
     border-radius: 10px;
+    background: rgba(204, 204, 204, 0.5);
 }
 
 h1 {
     margin-top: 10px;
-    color: white;
+    color: black;
     margin-bottom: 10px;
 }
 
 h2 {
     font-size: 50px;
     margin-top: 0;
-    color: white;
+    color: black;
     margin-bottom: 20px;
 }
 
