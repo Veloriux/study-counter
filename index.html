@@ -1,0 +1,17 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <h2>HOURLY STUDY LOG</h2>
+            <h1>TODAY'S HOURS:</h1>
+            <h2 id="count-el">0</h2>
+            <button id="addhour-btn" onclick="increment()">ADD AN HOUR</button>
+            <button id="save-btn" onclick="save()">END STUDY SESSION</button>
+            <p>Previously logged hours:</p>
+            <p id="save-el"></p>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
